@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+* {
+	box-sizing: border-box;
+}
+body{
+    margin: 50px auto 50px auto;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 30px;
+    text-align: center;
+    max-width: 650px;
+    
+}
+h1{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 50px;
+}
+h1 strong{
+    color: hsl(209, 33%, 12%);
+    font-weight: 900;
+}
+h2{
+    color: hsl(209, 33%, 12%);
+    font-size: 20px;
+    font-weight: 300;
+}
+input{
+    font-family: 'Libre Franklin', sans-serif;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50px;
+    font-size: 16px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 200px;
+    margin-bottom: 15px;
+    width: 100%;
+    
+}
+input::placeholder {
+	color: hsl(223, 100%, 88%);
+}
+button{
+    padding: 20px 40px;
+    background-color: hsl(223, 87%, 63%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+    cursor: pointer;
+    flex: 0.3;
+}
+button:hover {
+	opacity: 0.8;
+}
+footer p {
+	color: hsl(0, 0%, 59%);
+}
+form {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 50px;
+	text-align: left;
+}
+form small {
+	color: hsl(354, 100%, 66%);
+	display: none;
+	font-style: italic;
+	z-index: 100;
+	margin: 0 20px 40px;
+}
+
+input.error {
+	border-color: hsl(354, 100%, 66%);
+}
+
+input.error::placeholder {
+	color: hsl(354, 100%, 66%);
+}
+/* --------------------------------------------------------------------------------------- */
+
+.form-left {
+	flex: 0.7;
+}
+
+.illustration {
+	max-width: 100%;
+	margin: 60px 0;
+}
+@media screen and (max-width: 650px) {
+	form {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.eform {
+		width: 100%;
+	}
+
+	button {
+		margin-left: 0;
+		width: 100%;
+        padding:20px 170px;
+        
+	}
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	list-style-type: none;
+}
+
+.social li {
+	margin: 10px;
+}
+
+.social li a {
+	border: 1px solid hsl(0, 7%, 89%);
+	border-radius: 50%;
+	color: hsl(223, 87%, 63%);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+}
+
+.social li a:hover {
+	background-color: hsl(223, 87%, 63%);
+	border-color: hsl(223, 87%, 63%);
+	color: #fff;
+}
+
+
