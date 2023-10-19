@@ -21,7 +21,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 ### Links
 
 - [Solution](https://github.com/BhanushreeNN/Frontend-mentor-challenges/tree/main/ping-coming-soon-page-master)
-- [Live](https://bhanushreenn.github.io/Frontend-mentor-challenges/)
+- [Live](https://bhanushreenn.github.io/Frontend-mentor-challenges/ping-coming-soon-page-master/public/)
 
 
 ### Built with
